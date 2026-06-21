@@ -1515,7 +1515,6 @@ footer {
 
   .policy-container ul {
     align-items: flex-start;
-    flex-direction: column;
     gap: 10px;
   }
 }
