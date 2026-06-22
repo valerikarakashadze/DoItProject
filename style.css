@@ -1134,7 +1134,7 @@ footer {
   }
 
   .hero-grid {
-    grid-template-rows: auto 420px 55px;
+    grid-template-rows: 200px 55px 360px;
     min-height: 0;
   }
 
