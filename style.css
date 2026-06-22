@@ -1291,6 +1291,9 @@ footer {
   .header li a {
     height: 42px;
   }
+  .hero-content {
+    margin-top: 50px;
+  }
 
   .hero-content,
   .about-content,
@@ -1479,7 +1482,7 @@ footer {
   }
 
   .hero-grid {
-    grid-template-rows: auto 300px 55px;
+    grid-template-rows: 200px 54px 200px;
   }
 
   .about-grid {
