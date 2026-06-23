@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg data-bbox="-39 -39 78 78" viewBox="-40 -40 80 80" xmlns="http://www.w3.org/2000/svg" data-type="color">
+    <g>
+        <path d="M39 0c0 21.54-17.46 39-39 39S-39 21.54-39 0s17.46-39 39-39S39-21.54 39 0" fill="#000000" data-color="1"/>
+        <path d="M0 38a38 38 0 0 1 0-76A19 19 0 0 1 0 0a19 19 0 0 0 0 38" fill="#ffffff" data-color="2"/>
+        <path fill="#ffffff" d="M5 19a5 5 0 1 1-10 0 5 5 0 0 1 10 0" data-color="2"/>
+        <path d="M5-19a5 5 0 1 1-10 0 5 5 0 0 1 10 0" fill="#000000" data-color="1"/>
+    </g>
+</svg>

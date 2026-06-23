@@ -1,0 +1,365 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shop | Kinetik Flow Dojo</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav>
+        <a
+          href="../index.html"
+          class="logo-link"
+          aria-label="Kinetik Flow Dojo home"
+        >
+          <img
+            title="Kinetik Flow Dojo main logo"
+            src="../images/kinetik-flow-dojo-main-logo.svg"
+            alt="Kinetik Flow Dojo main logo"
+            width="57"
+            height="57"
+          />
+        </a>
+
+        <input type="checkbox" id="menu-toggle" class="menu-checkbox" />
+        <div class="nav-menu">
+          <ul>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="shop.html" class="active">Shop</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="plans.html">Our Plans</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <a href="plans.html" class="header-plan-btn">
+          <span>Choose Your Plan</span>
+          <i class="fa-solid fa-arrow-right"></i>
+        </a>
+
+        <label class="menu-toggle" for="menu-toggle" aria-label="Open menu">
+          <i class="fa-solid fa-bars"></i>
+        </label>
+      </nav>
+    </header>
+    <main>
+      <section class="product-details-page">
+        <div class="product-details-container">
+          <div class="product-top-bar">
+            <nav class="breadcrumbs" aria-label="Breadcrumb">
+              <a href="../index.html">Home</a>
+              <span><i class="fa-solid fa-chevron-right"></i></span>
+              <a href="shop.html">All Products</a>
+              <span><i class="fa-solid fa-chevron-right"></i></span>
+              <span>I'm a product</span>
+            </nav>
+
+            <div class="product-nav-links">
+              <a href="#"><i class="fa-solid fa-chevron-left"></i> Prev</a>
+              <span>|</span>
+              <a href="#">Next <i class="fa-solid fa-chevron-right"></i></a>
+            </div>
+          </div>
+
+          <div class="product-main">
+            <div class="product-gallery">
+              <div class="main-product-image">
+                <img
+                  src="../images/shop/product-1.avif"
+                  alt="Adjustable dumbbell set"
+                />
+              </div>
+
+              <p class="product-short-description">
+                I'm a product description. I'm a great place to add more details
+                about your product such as sizing, material, care instructions
+                and cleaning instructions.
+              </p>
+            </div>
+
+            <div class="product-info">
+              <h1>I'm a product</h1>
+              <p class="product-sku">SKU: 0009</p>
+              <p class="product-detail-price">$20.00</p>
+
+              <form class="product-buy-form">
+                <label for="quantity">Quantity *</label>
+
+                <div class="product-quantity-box">
+                  <button type="button">−</button>
+                  <input
+                    type="number"
+                    id="quantity"
+                    name="quantity"
+                    min="1"
+                    value="1"
+                  />
+                  <button type="button">+</button>
+                </div>
+
+                <div class="product-actions">
+                  <button type="submit" class="add-cart-btn">
+                    Add to Cart
+                  </button>
+                  <button
+                    type="button"
+                    class="wishlist-btn"
+                    aria-label="Add to wishlist"
+                  >
+                    <i class="fa-regular fa-heart"></i>
+                  </button>
+                </div>
+
+                <button type="button" class="buy-now-btn">Buy Now</button>
+              </form>
+
+              <div class="product-accordion">
+                <details open>
+                  <summary>PRODUCT INFO</summary>
+                  <p>
+                    I'm a product detail. I'm a great place to add more
+                    information about your product such as sizing, material,
+                    care and cleaning instructions. This is also a great space
+                    to write what makes this product special and how your
+                    customers can benefit from this item.
+                  </p>
+                </details>
+
+                <details>
+                  <summary>RETURN &amp; REFUND POLICY</summary>
+                  <p>Add your return and refund policy information here.</p>
+                </details>
+
+                <details>
+                  <summary>SHIPPING INFO</summary>
+                  <p>
+                    Add your shipping details, delivery times and extra fees
+                    here.
+                  </p>
+                </details>
+              </div>
+
+              <div class="product-share-icons">
+                <a href="https://www.facebook.com/wix" aria-label="Facebook">
+                  <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="https://www.instagram.com/wix" aria-label="Instagram">
+                  <i class="fa-brands fa-square-instagram"></i>
+                </a>
+                <a href="https://www.youtube.com/user/Wix" aria-label="YouTube">
+                  <i class="fa-brands fa-square-youtube"></i>
+                </a>
+                <a href="https://www.tiktok.com/@wix" aria-label="TikTok">
+                  <i class="fa-brands fa-tiktok"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <section class="related-products">
+            <h2>Related Products</h2>
+
+            <div
+              id="relatedProductsCarousel"
+              class="carousel slide related-products-carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="related-products-grid">
+                    <article class="related-card">
+                      <a href="#">
+                        <img
+                          src="../images/shop/product-2.avif"
+                          alt="Kettlebells"
+                        />
+                      </a>
+                      <h3>I'm a product</h3>
+                      <p>$40.00</p>
+                    </article>
+
+                    <article class="related-card">
+                      <a href="#">
+                        <img
+                          src="../images/shop/product-3.avif"
+                          alt="Workout gloves"
+                        />
+                      </a>
+                      <h3>I'm a product</h3>
+                      <p>$20.00</p>
+                    </article>
+
+                    <article class="related-card">
+                      <a href="#">
+                        <img
+                          src="../images/shop/product-4.avif"
+                          alt="Small dumbbells"
+                        />
+                      </a>
+                      <h3>I'm a product</h3>
+                      <p>$20.00</p>
+                    </article>
+
+                    <article class="related-card">
+                      <a href="#">
+                        <img
+                          src="../images/shop/product-5.avif"
+                          alt="Blue dumbbells"
+                        />
+                      </a>
+                      <h3>I'm a product</h3>
+                      <p>$20.00</p>
+                    </article>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <div class="related-products-grid">
+                    <article class="related-card">
+                      <a href="#">
+                        <img
+                          src="../images/shop/product-6.avif"
+                          alt="Fitness product"
+                        />
+                      </a>
+                      <h3>I'm a product</h3>
+                      <p>$25.00</p>
+                    </article>
+
+                    <article class="related-card">
+                      <a href="#">
+                        <img
+                          src="../images/shop/product-7.avif"
+                          alt="Fitness product"
+                        />
+                      </a>
+                      <h3>I'm a product</h3>
+                      <p>$30.00</p>
+                    </article>
+
+                    <article class="related-card">
+                      <a href="#">
+                        <img
+                          src="../images/shop/product-8.avif"
+                          alt="Fitness product"
+                        />
+                      </a>
+                      <h3>I'm a product</h3>
+                      <p>$35.00</p>
+                    </article>
+
+                    <article class="related-card">
+                      <a href="#">
+                        <img
+                          src="../images/shop/product-9.avif"
+                          alt="Fitness product"
+                        />
+                      </a>
+                      <h3>I'm a product</h3>
+                      <p>$20.00</p>
+                    </article>
+                  </div>
+                </div>
+              </div>
+
+              <button
+                class="carousel-control-prev related-carousel-control related-carousel-prev"
+                type="button"
+                data-bs-target="#relatedProductsCarousel"
+                data-bs-slide="prev"
+                aria-label="Previous products"
+              >
+                <i class="fa-solid fa-chevron-left"></i>
+              </button>
+
+              <button
+                class="carousel-control-next related-carousel-control related-carousel-next"
+                type="button"
+                data-bs-target="#relatedProductsCarousel"
+                data-bs-slide="next"
+                aria-label="Next products"
+              >
+                <i class="fa-solid fa-chevron-right"></i>
+              </button>
+            </div>
+          </section>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-logo">
+        <a href="../index.html" aria-label="Kinetik Flow Dojo home">
+          <img
+            title="Kinetik Flow Dojo footer logo"
+            src="../images/kinetik-flow-dojo-footer-logo.svg"
+            width="100%"
+            alt="Kinetik Flow Dojo footer logo"
+          />
+        </a>
+      </div>
+      <div class="join-dojo-btn">
+        <a href="plans.html" title="Join The Dojo">
+          <span>Join The Dojo</span>
+          <i class="fa-solid fa-arrow-right"></i>
+        </a>
+      </div>
+      <div class="email-container footer-box">
+        <p>info@mysite.com</p>
+      </div>
+      <div class="mobile-container footer-box">
+        <p>123 456 7890</p>
+      </div>
+      <div class="social-icons-container footer-box" aria-label="Social links">
+        <a href="https://www.facebook.com/wix" aria-label="Facebook">
+          <i class="fa-brands fa-facebook"></i>
+        </a>
+        <a href="https://www.instagram.com/wix" aria-label="Instagram">
+          <i class="fa-brands fa-square-instagram"></i>
+        </a>
+        <a href="https://www.youtube.com/user/Wix" aria-label="YouTube">
+          <i class="fa-brands fa-square-youtube"></i>
+        </a>
+        <a href="https://www.tiktok.com/@wix" aria-label="TikTok">
+          <i class="fa-brands fa-tiktok"></i>
+        </a>
+      </div>
+      <div class="adress-container footer-box">
+        <p>500 Terry Francine Street, San Francisco, CA 94158</p>
+      </div>
+      <div class="policy-container footer-box">
+        <ul>
+          <li><a href="privacy-policy.html">Privacy Policy</a></li>
+          <li>
+            <a href="accessibility-statement.html">Accessibility Statement</a>
+          </li>
+          <li><a href="terms-and-conditions.html">Terms & Conditions</a></li>
+          <li><a href="refund-policy.html">Refund Policy</a></li>
+        </ul>
+      </div>
+      <div class="powereb-by-container footer-box">
+        <p>
+          &copy; 2035 by Kinetik Flow Dojo. Powered and secured by
+          <a
+            href="https://www.wix.com/website-template/view/html/wh-1339?originUrl=https%3A%2F%2Fwww.wix.com%2Fwebsite%2Ftemplates%2Fhtml%2Fall%2F11&tpClick=view_button&esi=8dce011a-c79f-495b-9ff0-b8383bec916b"
+            class="powereb-by-link"
+            >Wix</a
+          >
+        </p>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
